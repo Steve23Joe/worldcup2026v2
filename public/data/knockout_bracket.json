@@ -1,0 +1,334 @@
+{
+  "round_of_32": [
+    {
+      "match_id": "760486",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-06-28T19:00Z",
+      "home_team_name": "Group A 2nd Place",
+      "away_team_name": "Group B 2nd Place",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760487",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-06-29T17:00Z",
+      "home_team_name": "Group C Winner",
+      "away_team_name": "Group F 2nd Place",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760489",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-06-29T20:30Z",
+      "home_team_name": "Group E Winner",
+      "away_team_name": "Third Place Group A/B/C/D/F",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760488",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-06-30T01:00Z",
+      "home_team_name": "Group F Winner",
+      "away_team_name": "Group C 2nd Place",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760490",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-06-30T17:00Z",
+      "home_team_name": "Group E 2nd Place",
+      "away_team_name": "Group I 2nd Place",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760492",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-06-30T21:00Z",
+      "home_team_name": "Group I Winner",
+      "away_team_name": "Third Place Group C/D/F/G/H",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760491",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-07-01T01:00Z",
+      "home_team_name": "Group A Winner",
+      "away_team_name": "Third Place Group C/E/F/H/I",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760495",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-07-01T16:00Z",
+      "home_team_name": "Group L Winner",
+      "away_team_name": "Third Place Group E/H/I/J/K",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760493",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-07-01T20:00Z",
+      "home_team_name": "Group G Winner",
+      "away_team_name": "Third Place Group A/E/H/I/J",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760494",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-07-02T00:00Z",
+      "home_team_name": "Group D Winner",
+      "away_team_name": "Third Place Group B/E/F/I/J",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760497",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-07-02T19:00Z",
+      "home_team_name": "Group H Winner",
+      "away_team_name": "Group J 2nd Place",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760496",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-07-02T23:00Z",
+      "home_team_name": "Group K 2nd Place",
+      "away_team_name": "Group L 2nd Place",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760498",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-07-03T03:00Z",
+      "home_team_name": "Group B Winner",
+      "away_team_name": "Third Place Group E/F/G/I/J",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760499",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-07-03T18:00Z",
+      "home_team_name": "Group D 2nd Place",
+      "away_team_name": "Group G 2nd Place",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760500",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-07-03T22:00Z",
+      "home_team_name": "Group J Winner",
+      "away_team_name": "Group H 2nd Place",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760501",
+      "stage": "round_of_32",
+      "kickoff_utc": "2026-07-04T01:30Z",
+      "home_team_name": "Group K Winner",
+      "away_team_name": "Third Place Group D/E/I/J/L",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    }
+  ],
+  "round_of_16": [
+    {
+      "match_id": "760502",
+      "stage": "round_of_16",
+      "kickoff_utc": "2026-07-04T17:00Z",
+      "home_team_name": "Round of 32 1 Winner",
+      "away_team_name": "Round of 32 3 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760503",
+      "stage": "round_of_16",
+      "kickoff_utc": "2026-07-04T21:00Z",
+      "home_team_name": "Round of 32 2 Winner",
+      "away_team_name": "Round of 32 5 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760504",
+      "stage": "round_of_16",
+      "kickoff_utc": "2026-07-05T20:00Z",
+      "home_team_name": "Round of 32 4 Winner",
+      "away_team_name": "Round of 32 6 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760505",
+      "stage": "round_of_16",
+      "kickoff_utc": "2026-07-06T00:00Z",
+      "home_team_name": "Round of 32 7 Winner",
+      "away_team_name": "Round of 32 8 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760506",
+      "stage": "round_of_16",
+      "kickoff_utc": "2026-07-06T19:00Z",
+      "home_team_name": "Round of 32 11 Winner",
+      "away_team_name": "Round of 32 12 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760507",
+      "stage": "round_of_16",
+      "kickoff_utc": "2026-07-07T00:00Z",
+      "home_team_name": "Round of 32 9 Winner",
+      "away_team_name": "Round of 32 10 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760509",
+      "stage": "round_of_16",
+      "kickoff_utc": "2026-07-07T16:00Z",
+      "home_team_name": "Round of 32 14 Winner",
+      "away_team_name": "Round of 32 16 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760508",
+      "stage": "round_of_16",
+      "kickoff_utc": "2026-07-07T20:00Z",
+      "home_team_name": "Round of 32 13 Winner",
+      "away_team_name": "Round of 32 15 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    }
+  ],
+  "quarterfinal": [
+    {
+      "match_id": "760510",
+      "stage": "quarterfinal",
+      "kickoff_utc": "2026-07-09T20:00Z",
+      "home_team_name": "Round of 16 1 Winner",
+      "away_team_name": "Round of 16 2 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760511",
+      "stage": "quarterfinal",
+      "kickoff_utc": "2026-07-10T19:00Z",
+      "home_team_name": "Round of 16 5 Winner",
+      "away_team_name": "Round of 16 6 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760512",
+      "stage": "quarterfinal",
+      "kickoff_utc": "2026-07-11T21:00Z",
+      "home_team_name": "Round of 16 3 Winner",
+      "away_team_name": "Round of 16 4 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760513",
+      "stage": "quarterfinal",
+      "kickoff_utc": "2026-07-12T01:00Z",
+      "home_team_name": "Round of 16 7 Winner",
+      "away_team_name": "Round of 16 8 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    }
+  ],
+  "semifinal": [
+    {
+      "match_id": "760514",
+      "stage": "semifinal",
+      "kickoff_utc": "2026-07-14T19:00Z",
+      "home_team_name": "Quarterfinal 1 Winner",
+      "away_team_name": "Quarterfinal 2 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    },
+    {
+      "match_id": "760515",
+      "stage": "semifinal",
+      "kickoff_utc": "2026-07-15T19:00Z",
+      "home_team_name": "Quarterfinal 3 Winner",
+      "away_team_name": "Quarterfinal 4 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    }
+  ],
+  "third_place": [
+    {
+      "match_id": "760516",
+      "stage": "third_place",
+      "kickoff_utc": "2026-07-18T21:00Z",
+      "home_team_name": "Semifinal 1 Loser",
+      "away_team_name": "Semifinal 2 Loser",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    }
+  ],
+  "final": [
+    {
+      "match_id": "760517",
+      "stage": "final",
+      "kickoff_utc": "2026-07-19T19:00Z",
+      "home_team_name": "Semifinal 1 Winner",
+      "away_team_name": "Semifinal 2 Winner",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "scheduled"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "match_id": "760432",
+    "stage": "group",
+    "group_name": "I",
+    "home_team_name": "France",
+    "away_team_name": "Senegal",
+    "kickoff_utc": "2026-06-16T19:00Z",
+    "local_match_date": "2026-06-17",
+    "market_home_win_probability": 0.640658,
+    "market_draw_probability": 0.218685,
+    "market_away_win_probability": 0.140657,
+    "predicted_result": "home_win",
+    "confidence_level": "medium",
+    "predicted_home_goals": 2,
+    "predicted_away_goals": 0,
+    "predicted_score": "2-0",
+    "score_confidence_level": "low",
+    "score_prediction_flags": [
+      "scoreline_baseline",
+      "exact_score_uncertain",
+      "no_over_under_market_used",
+      "real_market_odds_used"
+    ],
+    "odds_bookmaker_count": 25,
+    "odds_is_mock": false,
+    "data_quality_flags": [
+      "market_implied_baseline",
+      "prediction_real_market_odds",
+      "ranking_mock_data"
+    ],
+    "disclaimer": "Analytical output only. Not betting advice."
+  },
+  {
+    "match_id": "760430",
+    "stage": "group",
+    "group_name": "I",
+    "home_team_name": "Iraq",
+    "away_team_name": "Norway",
+    "kickoff_utc": "2026-06-16T22:00Z",
+    "local_match_date": "2026-06-17",
+    "market_home_win_probability": 0.066715,
+    "market_draw_probability": 0.138057,
+    "market_away_win_probability": 0.795228,
+    "predicted_result": "away_win",
+    "confidence_level": "high",
+    "predicted_home_goals": 0,
+    "predicted_away_goals": 3,
+    "predicted_score": "0-3",
+    "score_confidence_level": "medium",
+    "score_prediction_flags": [
+      "scoreline_baseline",
+      "exact_score_uncertain",
+      "no_over_under_market_used",
+      "real_market_odds_used"
+    ],
+    "odds_bookmaker_count": 25,
+    "odds_is_mock": false,
+    "data_quality_flags": [
+      "market_implied_baseline",
+      "prediction_real_market_odds",
+      "ranking_mock_data"
+    ],
+    "disclaimer": "Analytical output only. Not betting advice."
+  },
+  {
+    "match_id": "760433",
+    "stage": "group",
+    "group_name": "J",
+    "home_team_name": "Argentina",
+    "away_team_name": "Algeria",
+    "kickoff_utc": "2026-06-17T01:00Z",
+    "local_match_date": "2026-06-17",
+    "market_home_win_probability": 0.674054,
+    "market_draw_probability": 0.211916,
+    "market_away_win_probability": 0.114029,
+    "predicted_result": "home_win",
+    "confidence_level": "high",
+    "predicted_home_goals": 2,
+    "predicted_away_goals": 0,
+    "predicted_score": "2-0",
+    "score_confidence_level": "medium",
+    "score_prediction_flags": [
+      "scoreline_baseline",
+      "exact_score_uncertain",
+      "no_over_under_market_used",
+      "real_market_odds_used"
+    ],
+    "odds_bookmaker_count": 25,
+    "odds_is_mock": false,
+    "data_quality_flags": [
+      "market_implied_baseline",
+      "prediction_real_market_odds",
+      "ranking_mock_data"
+    ],
+    "disclaimer": "Analytical output only. Not betting advice."
+  },
+  {
+    "match_id": "760431",
+    "stage": "group",
+    "group_name": "J",
+    "home_team_name": "Austria",
+    "away_team_name": "Jordan",
+    "kickoff_utc": "2026-06-17T04:00Z",
+    "local_match_date": "2026-06-17",
+    "market_home_win_probability": 0.699704,
+    "market_draw_probability": 0.186268,
+    "market_away_win_probability": 0.114028,
+    "predicted_result": "home_win",
+    "confidence_level": "high",
+    "predicted_home_goals": 2,
+    "predicted_away_goals": 0,
+    "predicted_score": "2-0",
+    "score_confidence_level": "medium",
+    "score_prediction_flags": [
+      "scoreline_baseline",
+      "exact_score_uncertain",
+      "no_over_under_market_used",
+      "real_market_odds_used"
+    ],
+    "odds_bookmaker_count": 25,
+    "odds_is_mock": false,
+    "data_quality_flags": [
+      "market_implied_baseline",
+      "prediction_real_market_odds",
+      "ranking_mock_data"
+    ],
+    "disclaimer": "Analytical output only. Not betting advice."
+  }
+]

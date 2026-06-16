@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-06-16T08:47:54Z",
+  "target_date": null,
+  "timezone": "Asia/Tokyo",
+  "data_version": "1.0",
+  "files": [
+    "manifest.json",
+    "predictions.json",
+    "matches.json",
+    "group_standings.json",
+    "knockout_bracket.json",
+    "summary.json"
+  ],
+  "disclaimer": "Analytical output only. Not betting advice."
+}
