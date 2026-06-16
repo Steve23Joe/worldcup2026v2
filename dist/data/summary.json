@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-16T08:47:54Z",
+  "generated_at": "2026-06-16T09:20:42Z",
   "data_version": "1.0",
   "match_count": 104,
   "prediction_count": 4,
-  "odds_data_type": "REAL",
-  "selected_matches": 104,
+  "odds_data_type": "MOCK",
+  "selected_matches": 4,
   "matches_with_predictions": 4,
-  "matches_missing_odds": 100,
+  "matches_missing_odds": 0,
   "disclaimer": "Analytical output only. Not betting advice."
 }
