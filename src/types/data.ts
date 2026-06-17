@@ -65,6 +65,7 @@ export interface KnockoutMatch {
 export interface SummaryData {
   generated_at: string
   data_version: string
+  build_id?: string
   match_count: number
   prediction_count: number
   odds_data_type: 'REAL' | 'MOCK'
@@ -76,9 +77,19 @@ export interface SummaryData {
 
 export interface ManifestData {
   generated_at: string
+  data_version: string
+  build_id: string
   target_date: string | null
   timezone: string
-  data_version: string
-  files: string[]
+  files: Record<string, string>
   disclaimer: string
+}
+
+export interface DashboardData {
+  manifest: ManifestData
+  summary: SummaryData
+  predictions: PredictionRecord[]
+  matches: MatchRecord[]
+  standings: StandingEntry[]
+  knockout: Record<string, KnockoutMatch[]>
 }

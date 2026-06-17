@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-06-16T09:20:42Z",
-  "data_version": "1.0",
+  "generated_at": "2026-06-17T05:39:42Z",
+  "data_version": "20260617T053942Z",
+  "build_id": "20260617T053942Z",
   "match_count": 104,
   "prediction_count": 4,
-  "odds_data_type": "MOCK",
+  "odds_data_type": "REAL",
   "selected_matches": 4,
   "matches_with_predictions": 4,
   "matches_missing_odds": 0,

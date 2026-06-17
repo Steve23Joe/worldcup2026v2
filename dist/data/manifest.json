@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-06-16T09:20:42Z",
-  "target_date": "2026-06-17",
+  "generated_at": "2026-06-17T05:39:42Z",
+  "data_version": "20260617T053942Z",
+  "build_id": "20260617T053942Z",
+  "target_date": "2026-06-18",
   "timezone": "Asia/Tokyo",
-  "data_version": "1.0",
-  "files": [
-    "manifest.json",
-    "predictions.json",
-    "matches.json",
-    "group_standings.json",
-    "knockout_bracket.json",
-    "summary.json"
-  ],
+  "files": {
+    "manifest": "manifest.json",
+    "predictions": "predictions.json",
+    "matches": "matches.json",
+    "group_standings": "group_standings.json",
+    "knockout_bracket": "knockout_bracket.json",
+    "summary": "summary.json"
+  },
   "disclaimer": "Analytical output only. Not betting advice."
 }

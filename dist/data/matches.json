@@ -232,9 +232,9 @@
     "home_team_name": "France",
     "away_team_name": "Senegal",
     "kickoff_utc": "2026-06-16T19:00Z",
-    "status": "scheduled",
-    "home_score": 0,
-    "away_score": 0,
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 1,
     "local_match_date": "2026-06-17"
   },
   {
@@ -246,9 +246,9 @@
     "home_team_name": "Iraq",
     "away_team_name": "Norway",
     "kickoff_utc": "2026-06-16T22:00Z",
-    "status": "scheduled",
-    "home_score": 0,
-    "away_score": 0,
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 4,
     "local_match_date": "2026-06-17"
   },
   {
@@ -260,8 +260,8 @@
     "home_team_name": "Argentina",
     "away_team_name": "Algeria",
     "kickoff_utc": "2026-06-17T01:00Z",
-    "status": "scheduled",
-    "home_score": 0,
+    "status": "completed",
+    "home_score": 3,
     "away_score": 0,
     "local_match_date": "2026-06-17"
   },
@@ -274,9 +274,9 @@
     "home_team_name": "Austria",
     "away_team_name": "Jordan",
     "kickoff_utc": "2026-06-17T04:00Z",
-    "status": "scheduled",
-    "home_score": 0,
-    "away_score": 0,
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 1,
     "local_match_date": "2026-06-17"
   },
   {
