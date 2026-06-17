@@ -65,6 +65,19 @@
     "points": 3
   },
   {
+    "group_name": "J",
+    "team_id": "AUT",
+    "team_name": "Austria",
+    "played": 1,
+    "wins": 1,
+    "draws": 0,
+    "losses": 0,
+    "goals_for": 3,
+    "goals_against": 1,
+    "goal_difference": 2,
+    "points": 3
+  },
+  {
     "group_name": "I",
     "team_id": "FRA",
     "team_name": "France",
@@ -195,19 +208,6 @@
     "points": 1
   },
   {
-    "group_name": "J",
-    "team_id": "AUT",
-    "team_name": "Austria",
-    "played": 1,
-    "wins": 0,
-    "draws": 1,
-    "losses": 0,
-    "goals_for": 1,
-    "goals_against": 1,
-    "goal_difference": 0,
-    "points": 1
-  },
-  {
     "group_name": "G",
     "team_id": "BEL",
     "team_name": "Belgium",
@@ -263,19 +263,6 @@
     "group_name": "G",
     "team_id": "EGY",
     "team_name": "Egypt",
-    "played": 1,
-    "wins": 0,
-    "draws": 1,
-    "losses": 0,
-    "goals_for": 1,
-    "goals_against": 1,
-    "goal_difference": 0,
-    "points": 1
-  },
-  {
-    "group_name": "J",
-    "team_id": "JOR",
-    "team_name": "Jordan",
     "played": 1,
     "wins": 0,
     "draws": 1,
@@ -413,6 +400,19 @@
     "goals_for": 0,
     "goals_against": 1,
     "goal_difference": -1,
+    "points": 0
+  },
+  {
+    "group_name": "J",
+    "team_id": "JOR",
+    "team_name": "Jordan",
+    "played": 1,
+    "wins": 0,
+    "draws": 0,
+    "losses": 1,
+    "goals_for": 1,
+    "goals_against": 3,
+    "goal_difference": -2,
     "points": 0
   },
   {
