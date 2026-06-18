@@ -288,9 +288,9 @@
     "home_team_name": "Portugal",
     "away_team_name": "Congo DR",
     "kickoff_utc": "2026-06-17T17:00Z",
-    "status": "scheduled",
-    "home_score": 0,
-    "away_score": 0,
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 1,
     "local_match_date": "2026-06-18"
   },
   {
@@ -302,9 +302,9 @@
     "home_team_name": "England",
     "away_team_name": "Croatia",
     "kickoff_utc": "2026-06-17T20:00Z",
-    "status": "scheduled",
-    "home_score": 0,
-    "away_score": 0,
+    "status": "completed",
+    "home_score": 4,
+    "away_score": 2,
     "local_match_date": "2026-06-18"
   },
   {
@@ -316,8 +316,8 @@
     "home_team_name": "Ghana",
     "away_team_name": "Panama",
     "kickoff_utc": "2026-06-17T23:00Z",
-    "status": "scheduled",
-    "home_score": 0,
+    "status": "completed",
+    "home_score": 1,
     "away_score": 0,
     "local_match_date": "2026-06-18"
   },
@@ -330,9 +330,9 @@
     "home_team_name": "Uzbekistan",
     "away_team_name": "Colombia",
     "kickoff_utc": "2026-06-18T02:00Z",
-    "status": "scheduled",
-    "home_score": 0,
-    "away_score": 0,
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 3,
     "local_match_date": "2026-06-18"
   },
   {

@@ -65,9 +65,35 @@
     "points": 3
   },
   {
+    "group_name": "L",
+    "team_id": "ENG",
+    "team_name": "England",
+    "played": 1,
+    "wins": 1,
+    "draws": 0,
+    "losses": 0,
+    "goals_for": 4,
+    "goals_against": 2,
+    "goal_difference": 2,
+    "points": 3
+  },
+  {
     "group_name": "J",
     "team_id": "AUT",
     "team_name": "Austria",
+    "played": 1,
+    "wins": 1,
+    "draws": 0,
+    "losses": 0,
+    "goals_for": 3,
+    "goals_against": 1,
+    "goal_difference": 2,
+    "points": 3
+  },
+  {
+    "group_name": "K",
+    "team_id": "COL",
+    "team_name": "Colombia",
     "played": 1,
     "wins": 1,
     "draws": 0,
@@ -126,6 +152,19 @@
     "losses": 0,
     "goals_for": 2,
     "goals_against": 1,
+    "goal_difference": 1,
+    "points": 3
+  },
+  {
+    "group_name": "L",
+    "team_id": "GHA",
+    "team_name": "Ghana",
+    "played": 1,
+    "wins": 1,
+    "draws": 0,
+    "losses": 0,
+    "goals_for": 1,
+    "goals_against": 0,
     "goal_difference": 1,
     "points": 3
   },
@@ -260,6 +299,19 @@
     "points": 1
   },
   {
+    "group_name": "K",
+    "team_id": "COD",
+    "team_name": "Congo DR",
+    "played": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
+    "goals_for": 1,
+    "goals_against": 1,
+    "goal_difference": 0,
+    "points": 1
+  },
+  {
     "group_name": "G",
     "team_id": "EGY",
     "team_name": "Egypt",
@@ -276,6 +328,19 @@
     "group_name": "C",
     "team_id": "MAR",
     "team_name": "Morocco",
+    "played": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
+    "goals_for": 1,
+    "goals_against": 1,
+    "goal_difference": 0,
+    "points": 1
+  },
+  {
+    "group_name": "K",
+    "team_id": "POR",
+    "team_name": "Portugal",
     "played": 1,
     "wins": 0,
     "draws": 1,
@@ -403,6 +468,32 @@
     "points": 0
   },
   {
+    "group_name": "L",
+    "team_id": "PAN",
+    "team_name": "Panama",
+    "played": 1,
+    "wins": 0,
+    "draws": 0,
+    "losses": 1,
+    "goals_for": 0,
+    "goals_against": 1,
+    "goal_difference": -1,
+    "points": 0
+  },
+  {
+    "group_name": "L",
+    "team_id": "CRO",
+    "team_name": "Croatia",
+    "played": 1,
+    "wins": 0,
+    "draws": 0,
+    "losses": 1,
+    "goals_for": 2,
+    "goals_against": 4,
+    "goal_difference": -2,
+    "points": 0
+  },
+  {
     "group_name": "J",
     "team_id": "JOR",
     "team_name": "Jordan",
@@ -419,6 +510,19 @@
     "group_name": "I",
     "team_id": "SEN",
     "team_name": "Senegal",
+    "played": 1,
+    "wins": 0,
+    "draws": 0,
+    "losses": 1,
+    "goals_for": 1,
+    "goals_against": 3,
+    "goal_difference": -2,
+    "points": 0
+  },
+  {
+    "group_name": "K",
+    "team_id": "UZB",
+    "team_name": "Uzbekistan",
     "played": 1,
     "wins": 0,
     "draws": 0,
