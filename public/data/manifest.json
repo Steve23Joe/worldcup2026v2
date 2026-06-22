@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-21T10:58:18Z",
-  "data_version": "20260621T105818Z",
-  "build_id": "20260621T105818Z",
-  "target_date": "2026-06-22",
+  "generated_at": "2026-06-22T05:28:56Z",
+  "data_version": "20260622T052856Z",
+  "build_id": "20260622T052856Z",
+  "target_date": "2026-06-23",
   "timezone": "Asia/Tokyo",
   "files": {
     "manifest": "manifest.json",

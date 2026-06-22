@@ -512,8 +512,8 @@
     "home_team_name": "Spain",
     "away_team_name": "Saudi Arabia",
     "kickoff_utc": "2026-06-21T16:00Z",
-    "status": "scheduled",
-    "home_score": 0,
+    "status": "completed",
+    "home_score": 4,
     "away_score": 0,
     "local_match_date": "2026-06-22"
   },
@@ -526,7 +526,7 @@
     "home_team_name": "Belgium",
     "away_team_name": "Iran",
     "kickoff_utc": "2026-06-21T19:00Z",
-    "status": "scheduled",
+    "status": "completed",
     "home_score": 0,
     "away_score": 0,
     "local_match_date": "2026-06-22"
@@ -540,9 +540,9 @@
     "home_team_name": "Uruguay",
     "away_team_name": "Cape Verde",
     "kickoff_utc": "2026-06-21T22:00Z",
-    "status": "scheduled",
-    "home_score": 0,
-    "away_score": 0,
+    "status": "completed",
+    "home_score": 2,
+    "away_score": 2,
     "local_match_date": "2026-06-22"
   },
   {
@@ -554,9 +554,9 @@
     "home_team_name": "New Zealand",
     "away_team_name": "Egypt",
     "kickoff_utc": "2026-06-22T01:00Z",
-    "status": "scheduled",
-    "home_score": 0,
-    "away_score": 0,
+    "status": "completed",
+    "home_score": 1,
+    "away_score": 3,
     "local_match_date": "2026-06-22"
   },
   {
