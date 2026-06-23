@@ -13,6 +13,19 @@
     "points": 6
   },
   {
+    "group_name": "I",
+    "team_id": "FRA",
+    "team_name": "France",
+    "played": 2,
+    "wins": 2,
+    "draws": 0,
+    "losses": 0,
+    "goals_for": 6,
+    "goals_against": 1,
+    "goal_difference": 5,
+    "points": 6
+  },
+  {
     "group_name": "D",
     "team_id": "USA",
     "team_name": "United States",
@@ -23,6 +36,32 @@
     "goals_for": 6,
     "goals_against": 1,
     "goal_difference": 5,
+    "points": 6
+  },
+  {
+    "group_name": "J",
+    "team_id": "ARG",
+    "team_name": "Argentina",
+    "played": 2,
+    "wins": 2,
+    "draws": 0,
+    "losses": 0,
+    "goals_for": 5,
+    "goals_against": 0,
+    "goal_difference": 5,
+    "points": 6
+  },
+  {
+    "group_name": "I",
+    "team_id": "NOR",
+    "team_name": "Norway",
+    "played": 2,
+    "wins": 2,
+    "draws": 0,
+    "losses": 0,
+    "goals_for": 7,
+    "goals_against": 3,
+    "goal_difference": 4,
     "points": 6
   },
   {
@@ -143,32 +182,6 @@
     "points": 4
   },
   {
-    "group_name": "I",
-    "team_id": "NOR",
-    "team_name": "Norway",
-    "played": 1,
-    "wins": 1,
-    "draws": 0,
-    "losses": 0,
-    "goals_for": 4,
-    "goals_against": 1,
-    "goal_difference": 3,
-    "points": 3
-  },
-  {
-    "group_name": "J",
-    "team_id": "ARG",
-    "team_name": "Argentina",
-    "played": 1,
-    "wins": 1,
-    "draws": 0,
-    "losses": 0,
-    "goals_for": 3,
-    "goals_against": 0,
-    "goal_difference": 3,
-    "points": 3
-  },
-  {
     "group_name": "L",
     "team_id": "ENG",
     "team_name": "England",
@@ -182,35 +195,9 @@
     "points": 3
   },
   {
-    "group_name": "J",
-    "team_id": "AUT",
-    "team_name": "Austria",
-    "played": 1,
-    "wins": 1,
-    "draws": 0,
-    "losses": 0,
-    "goals_for": 3,
-    "goals_against": 1,
-    "goal_difference": 2,
-    "points": 3
-  },
-  {
     "group_name": "K",
     "team_id": "COL",
     "team_name": "Colombia",
-    "played": 1,
-    "wins": 1,
-    "draws": 0,
-    "losses": 0,
-    "goals_for": 3,
-    "goals_against": 1,
-    "goal_difference": 2,
-    "points": 3
-  },
-  {
-    "group_name": "I",
-    "team_id": "FRA",
-    "team_name": "France",
     "played": 1,
     "wins": 1,
     "draws": 0,
@@ -243,6 +230,19 @@
     "losses": 1,
     "goals_for": 6,
     "goals_against": 6,
+    "goal_difference": 0,
+    "points": 3
+  },
+  {
+    "group_name": "J",
+    "team_id": "AUT",
+    "team_name": "Austria",
+    "played": 2,
+    "wins": 1,
+    "draws": 0,
+    "losses": 1,
+    "goals_for": 3,
+    "goals_against": 3,
     "goal_difference": 0,
     "points": 3
   },
@@ -533,19 +533,6 @@
     "points": 0
   },
   {
-    "group_name": "I",
-    "team_id": "SEN",
-    "team_name": "Senegal",
-    "played": 1,
-    "wins": 0,
-    "draws": 0,
-    "losses": 1,
-    "goals_for": 1,
-    "goals_against": 3,
-    "goal_difference": -2,
-    "points": 0
-  },
-  {
     "group_name": "K",
     "team_id": "UZB",
     "team_name": "Uzbekistan",
@@ -560,14 +547,14 @@
   },
   {
     "group_name": "I",
-    "team_id": "IRQ",
-    "team_name": "Iraq",
-    "played": 1,
+    "team_id": "SEN",
+    "team_name": "Senegal",
+    "played": 2,
     "wins": 0,
     "draws": 0,
-    "losses": 1,
-    "goals_for": 1,
-    "goals_against": 4,
+    "losses": 2,
+    "goals_for": 3,
+    "goals_against": 6,
     "goal_difference": -3,
     "points": 0
   },
@@ -608,6 +595,19 @@
     "goals_for": 0,
     "goals_against": 4,
     "goal_difference": -4,
+    "points": 0
+  },
+  {
+    "group_name": "I",
+    "team_id": "IRQ",
+    "team_name": "Iraq",
+    "played": 2,
+    "wins": 0,
+    "draws": 0,
+    "losses": 2,
+    "goals_for": 1,
+    "goals_against": 7,
+    "goal_difference": -6,
     "points": 0
   },
   {
