@@ -7,9 +7,9 @@
     "away_team_name": "Uzbekistan",
     "kickoff_utc": "2026-06-23T17:00Z",
     "local_match_date": "2026-06-24",
-    "market_home_win_probability": 0.81991,
-    "market_draw_probability": 0.126498,
-    "market_away_win_probability": 0.053592,
+    "market_home_win_probability": 0.838492,
+    "market_draw_probability": 0.113333,
+    "market_away_win_probability": 0.048174,
     "predicted_result": "home_win",
     "confidence_level": "high",
     "predicted_home_goals": 3,
@@ -22,13 +22,14 @@
       "no_over_under_market_used",
       "real_market_odds_used"
     ],
-    "odds_bookmaker_count": 24,
+    "odds_bookmaker_count": 25,
     "odds_is_mock": false,
     "data_quality_flags": [
       "market_implied_baseline",
       "prediction_real_market_odds",
       "ranking_mock_data"
     ],
+    "analysis": "Portugal占据明显优势，市场预期获胜概率高达83.8%。市场信号明确，预测置信度高。基于市场赔率推算，最可能比分为 3-0。✓ 基于真实市场赔率数据。",
     "disclaimer": "Analytical output only. Not betting advice."
   },
   {
@@ -39,9 +40,9 @@
     "away_team_name": "Ghana",
     "kickoff_utc": "2026-06-23T20:00Z",
     "local_match_date": "2026-06-24",
-    "market_home_win_probability": 0.792744,
-    "market_draw_probability": 0.142565,
-    "market_away_win_probability": 0.064691,
+    "market_home_win_probability": 0.806852,
+    "market_draw_probability": 0.133978,
+    "market_away_win_probability": 0.05917,
     "predicted_result": "home_win",
     "confidence_level": "high",
     "predicted_home_goals": 3,
@@ -54,13 +55,14 @@
       "no_over_under_market_used",
       "real_market_odds_used"
     ],
-    "odds_bookmaker_count": 24,
+    "odds_bookmaker_count": 25,
     "odds_is_mock": false,
     "data_quality_flags": [
       "market_implied_baseline",
       "prediction_real_market_odds",
       "ranking_mock_data"
     ],
+    "analysis": "England占据明显优势，市场预期获胜概率高达80.7%。市场信号明确，预测置信度高。基于市场赔率推算，最可能比分为 3-0。✓ 基于真实市场赔率数据。",
     "disclaimer": "Analytical output only. Not betting advice."
   },
   {
@@ -71,9 +73,9 @@
     "away_team_name": "Croatia",
     "kickoff_utc": "2026-06-23T23:00Z",
     "local_match_date": "2026-06-24",
-    "market_home_win_probability": 0.137829,
-    "market_draw_probability": 0.225903,
-    "market_away_win_probability": 0.636268,
+    "market_home_win_probability": 0.142339,
+    "market_draw_probability": 0.221895,
+    "market_away_win_probability": 0.635766,
     "predicted_result": "away_win",
     "confidence_level": "medium",
     "predicted_home_goals": 0,
@@ -86,13 +88,14 @@
       "no_over_under_market_used",
       "real_market_odds_used"
     ],
-    "odds_bookmaker_count": 24,
+    "odds_bookmaker_count": 25,
     "odds_is_mock": false,
     "data_quality_flags": [
       "market_implied_baseline",
       "prediction_real_market_odds",
       "ranking_mock_data"
     ],
+    "analysis": "Croatia被市场看好，客场获胜概率为63.6%。市场存在一定分歧，预测置信度中等。基于市场赔率推算，最可能比分为 0-2。✓ 基于真实市场赔率数据。",
     "disclaimer": "Analytical output only. Not betting advice."
   },
   {
@@ -103,9 +106,9 @@
     "away_team_name": "Congo DR",
     "kickoff_utc": "2026-06-24T02:00Z",
     "local_match_date": "2026-06-24",
-    "market_home_win_probability": 0.616977,
-    "market_draw_probability": 0.23827,
-    "market_away_win_probability": 0.144754,
+    "market_home_win_probability": 0.620748,
+    "market_draw_probability": 0.236923,
+    "market_away_win_probability": 0.142329,
     "predicted_result": "home_win",
     "confidence_level": "medium",
     "predicted_home_goals": 2,
@@ -118,13 +121,14 @@
       "no_over_under_market_used",
       "real_market_odds_used"
     ],
-    "odds_bookmaker_count": 22,
+    "odds_bookmaker_count": 23,
     "odds_is_mock": false,
     "data_quality_flags": [
       "market_implied_baseline",
       "prediction_real_market_odds",
       "ranking_mock_data"
     ],
+    "analysis": "Colombia被市场看好，获胜概率为62.1%。市场存在一定分歧，预测置信度中等。基于市场赔率推算，最可能比分为 2-0。✓ 基于真实市场赔率数据。",
     "disclaimer": "Analytical output only. Not betting advice."
   }
 ]
