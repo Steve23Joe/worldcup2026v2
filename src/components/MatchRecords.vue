@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import type { MatchRecord } from '../types/data'
-import { fmtDate, stageLabel, statusLabel } from '../utils/format'
+import { fmtDate, stageLabel, statusLabel, teamNameCn } from '../utils/format'
 
 const props = defineProps<{ matches: MatchRecord[] }>()
 const search = ref('')
@@ -35,21 +35,21 @@ function scoreDisplay(m: MatchRecord) {
 <template>
   <div>
     <div class="filters">
-      <input v-model="search" type="text" placeholder="🔍 Search team..." class="search" />
-      <select v-model="filterStage"><option value="">All Stages</option><option v-for="s in stages" :key="s" :value="s">{{ stageLabel(s) }}</option></select>
-      <select v-model="filterGroup"><option value="">All Groups</option><option v-for="g in groups" :key="g" :value="g">Group {{ g }}</option></select>
-      <select v-model="filterStatus"><option value="">All Status</option><option v-for="s in statuses" :key="s" :value="s">{{ statusLabel(s) }}</option></select>
-      <span class="count">{{ filtered.length }} matches</span>
+      <input v-model="search" type="text" placeholder="🔍 搜索球队..." class="search" />
+      <select v-model="filterStage"><option value="">全部阶段</option><option v-for="s in stages" :key="s" :value="s">{{ stageLabel(s) }}</option></select>
+      <select v-model="filterGroup"><option value="">全部小组</option><option v-for="g in groups" :key="g" :value="g">{{ g }}组</option></select>
+      <select v-model="filterStatus"><option value="">全部状态</option><option v-for="s in statuses" :key="s" :value="s">{{ statusLabel(s) }}</option></select>
+      <span class="count">共 {{ filtered.length }} 场</span>
     </div>
-    <p v-if="filtered.length === 0" class="empty">No matches found.</p>
+    <p v-if="filtered.length === 0" class="empty">未找到匹配的比赛。</p>
     <div v-else class="table-wrap">
       <table>
-        <thead><tr><th>Match</th><th>Stage</th><th>Group</th><th>Kickoff (JST)</th><th>Status</th><th>Score</th></tr></thead>
+        <thead><tr><th>比赛</th><th>阶段</th><th>小组</th><th>开球 (北京时间)</th><th>状态</th><th>比分</th></tr></thead>
         <tbody>
           <tr v-for="m in filtered" :key="m.match_id">
-            <td class="match-cell">{{ m.home_team_name }} vs {{ m.away_team_name }}</td>
+            <td class="match-cell">{{ teamNameCn(m.home_team_name) }} vs {{ teamNameCn(m.away_team_name) }}</td>
             <td>{{ stageLabel(m.stage) }}</td>
-            <td>{{ m.group_name || '—' }}</td>
+            <td>{{ m.group_name ? m.group_name + '组' : '—' }}</td>
             <td class="date-cell">{{ fmtDate(m.kickoff_utc) }}</td>
             <td><span :class="'status-' + m.status">{{ statusLabel(m.status) }}</span></td>
             <td class="score-cell">{{ scoreDisplay(m) }}</td>

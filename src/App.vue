@@ -9,10 +9,10 @@ import type { ManifestData, SummaryData, PredictionRecord, MatchRecord, Standing
 import { loadDashboardData } from './utils/dataLoader'
 
 const tabs = [
-  { key: 'predictions', label: 'Predictions' },
-  { key: 'matches', label: 'Matches' },
-  { key: 'group_standings', label: 'Group Standings' },
-  { key: 'knockout', label: 'Knockout' },
+  { key: 'predictions', label: '预测分析' },
+  { key: 'matches', label: '比赛记录' },
+  { key: 'group_standings', label: '小组积分' },
+  { key: 'knockout', label: '淘汰赛' },
 ] as const
 type Tab = typeof tabs[number]['key']
 const active = ref<Tab>('predictions')
@@ -38,7 +38,7 @@ async function load() {
     standings.value = data.standings
     knockout.value = data.knockout
   } catch (e: any) {
-    error.value = 'Failed to load data: ' + e.message
+    error.value = '数据加载失败: ' + e.message
   } finally {
     loading.value = false; refreshing.value = false
   }
@@ -62,8 +62,8 @@ onMounted(load)
     <header class="app-header">
       <div class="header-inner">
         <div>
-          <h1>⚽ WC2026 Dashboard</h1>
-          <p class="subtitle">Static World Cup prediction dashboard powered by local data pipeline</p>
+          <h1>⚽ 2026世界杯数据看板</h1>
+          <p class="subtitle">基于本地数据流水线的静态世界杯预测看板</p>
         </div>
         <DataStatus :manifest="manifest" :summary="summary" :predictions="predictions" :loading="loading" :error="error"
           :refreshing="refreshing" @refresh="refresh" />
@@ -81,15 +81,15 @@ onMounted(load)
     </nav>
 
     <main class="main-content">
-      <div v-if="loading && !refreshing" class="state-msg">⏳ Loading data...</div>
-      <div v-else-if="refreshing" class="state-msg">🔄 Refreshing...</div>
+      <div v-if="loading && !refreshing" class="state-msg">⏳ 正在加载数据...</div>
+      <div v-else-if="refreshing" class="state-msg">🔄 刷新中...</div>
       <div v-else-if="error" class="state-msg error">{{ error }}
-        <button class="retry-btn" @click="load">Retry</button>
-        <a href="#" @click.prevent="hardRefresh" class="hard-refresh">Hard refresh</a>
+        <button class="retry-btn" @click="load">重试</button>
+        <a href="#" @click.prevent="hardRefresh" class="hard-refresh">强制刷新</a>
       </div>
       <div v-if="stale && !loading" class="stale-warn">
-        ⚠ Data may be stale — last updated more than 24 hours ago.
-        <a href="#" @click.prevent="refresh">Refresh now</a>
+        ⚠ 数据可能已过期 — 上次更新超过24小时。
+        <a href="#" @click.prevent="refresh">立即刷新</a>
       </div>
       <template v-else-if="!error && !loading">
         <PredictionBoard v-if="active === 'predictions'" :key="manifest?.data_version || 'predictions'" :predictions="predictions" :summary="summary" />
@@ -100,7 +100,7 @@ onMounted(load)
     </main>
 
     <footer class="app-footer">
-      <small>{{ summary?.disclaimer || 'Analytical output only. Not betting advice.' }}</small>
+      <small>{{ summary?.disclaimer || '分析数据仅供参考，不构成投注建议。' }}</small>
     </footer>
   </div>
 </template>

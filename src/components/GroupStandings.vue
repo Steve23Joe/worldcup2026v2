@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import type { StandingEntry } from '../types/data'
+import { teamNameCn } from '../utils/format'
 
 const props = defineProps<{ standings: StandingEntry[] }>()
 
@@ -17,20 +18,20 @@ const groups = computed(() => {
 
 <template>
   <div>
-    <p v-if="standings.length === 0" class="empty">No standings data available yet.</p>
+    <p v-if="standings.length === 0" class="empty">暂无小组积分数据。</p>
     <p v-if="standings.length > 0 && standings.length < 48" class="partial-warn">
-      ⚠ Standings based on {{ standings.length }} teams (48 expected for full tournament). Partial data — only completed group-stage results shown.
+      ⚠ 积分榜基于 {{ standings.length }} 支球队（完整赛事共48支）。仅显示已完成的小组赛结果。
     </p>
     <div class="group-grid">
       <div v-for="[group, entries] in groups" :key="group" class="group-card">
-        <h3>Group {{ group }}</h3>
+        <h3>{{ group }}组</h3>
         <div class="table-wrap">
           <table>
-            <thead><tr><th>#</th><th>Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr></thead>
+            <thead><tr><th>#</th><th>球队</th><th>场</th><th>胜</th><th>平</th><th>负</th><th>进球</th><th>失球</th><th>净胜</th><th>积分</th></tr></thead>
             <tbody>
               <tr v-for="(e, i) in entries" :key="e.team_id" :class="{ top2: i < 2 }">
                 <td>{{ i + 1 }}</td>
-                <td class="team-name">{{ e.team_name }}</td>
+                <td class="team-name">{{ teamNameCn(e.team_name) }}</td>
                 <td>{{ e.played }}</td><td>{{ e.wins }}</td><td>{{ e.draws }}</td>
                 <td>{{ e.losses }}</td><td>{{ e.goals_for }}</td><td>{{ e.goals_against }}</td>
                 <td>{{ e.goal_difference }}</td>
@@ -41,7 +42,7 @@ const groups = computed(() => {
         </div>
       </div>
     </div>
-    <p class="note">Simplified standings: points, goal difference, goals for. Full FIFA tie-breakers not implemented.</p>
+    <p class="note">简化积分规则：积分、净胜球、进球数。FIFA 完整平局规则尚未实现。</p>
   </div>
 </template>
 

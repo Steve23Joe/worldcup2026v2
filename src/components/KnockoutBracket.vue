@@ -1,30 +1,33 @@
 <script setup lang="ts">
 import type { KnockoutMatch } from '../types/data'
-import { fmtDate, stageLabel } from '../utils/format'
+import { fmtDate, stageLabel, teamNameCn } from '../utils/format'
 
 defineProps<{ knockout: Record<string, KnockoutMatch[]> }>()
 
 const stageOrder = ['round_of_32', 'round_of_16', 'quarterfinal', 'semifinal', 'third_place', 'final']
+const shortStatus: Record<string, string> = {
+  completed: '完赛', in_progress: '进行中', scheduled: '待定',
+}
 </script>
 
 <template>
   <div>
-    <p v-if="Object.keys(knockout).length === 0" class="empty">No knockout matches available yet.</p>
+    <p v-if="Object.keys(knockout).length === 0" class="empty">暂无淘汰赛数据。</p>
     <div v-for="stage in stageOrder" :key="stage">
       <template v-if="knockout[stage]?.length">
         <h3 class="stage-heading">{{ stageLabel(stage) }}</h3>
         <div class="ko-grid">
           <div v-for="m in knockout[stage]" :key="m.match_id" class="ko-card">
             <div class="ko-teams">
-              <span :class="{ winner: (m.home_score ?? 0) > (m.away_score ?? 0) }">{{ m.home_team_name || 'TBD' }}</span>
+              <span :class="{ winner: (m.home_score ?? 0) > (m.away_score ?? 0) }">{{ teamNameCn(m.home_team_name || '') || '待定' }}</span>
               <span class="vs">vs</span>
-              <span :class="{ winner: (m.away_score ?? 0) > (m.home_score ?? 0) }">{{ m.away_team_name || 'TBD' }}</span>
+              <span :class="{ winner: (m.away_score ?? 0) > (m.home_score ?? 0) }">{{ teamNameCn(m.away_team_name || '') || '待定' }}</span>
             </div>
             <div class="ko-meta">
               <span>{{ fmtDate(m.kickoff_utc) }}</span>
-              <span :class="'status-' + m.status">{{ m.status === 'completed' ? 'FT' : m.status === 'in_progress' ? 'LIVE' : 'SCH' }}</span>
+              <span :class="'status-' + m.status">{{ shortStatus[m.status] || m.status }}</span>
               <span v-if="m.status === 'completed' && m.home_score !== null" class="ko-score">{{ m.home_score }} - {{ m.away_score }}</span>
-              <span v-else class="ko-tbd">TBD</span>
+              <span v-else class="ko-tbd">待定</span>
             </div>
           </div>
         </div>

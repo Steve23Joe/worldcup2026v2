@@ -34,6 +34,7 @@ export interface PredictionRecord {
   odds_is_mock: boolean
   data_quality_flags: string[]
   score_prediction_flags: string[]
+  analysis?: string
   disclaimer: string
 }
 
