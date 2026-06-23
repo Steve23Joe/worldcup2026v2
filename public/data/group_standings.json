@@ -299,6 +299,19 @@
     "points": 3
   },
   {
+    "group_name": "J",
+    "team_id": "ALG",
+    "team_name": "Algeria",
+    "played": 2,
+    "wins": 1,
+    "draws": 0,
+    "losses": 1,
+    "goals_for": 2,
+    "goals_against": 4,
+    "goal_difference": -2,
+    "points": 3
+  },
+  {
     "group_name": "D",
     "team_id": "PAR",
     "team_name": "Paraguay",
@@ -520,19 +533,6 @@
     "points": 0
   },
   {
-    "group_name": "J",
-    "team_id": "JOR",
-    "team_name": "Jordan",
-    "played": 1,
-    "wins": 0,
-    "draws": 0,
-    "losses": 1,
-    "goals_for": 1,
-    "goals_against": 3,
-    "goal_difference": -2,
-    "points": 0
-  },
-  {
     "group_name": "K",
     "team_id": "UZB",
     "team_name": "Uzbekistan",
@@ -560,14 +560,14 @@
   },
   {
     "group_name": "J",
-    "team_id": "ALG",
-    "team_name": "Algeria",
-    "played": 1,
+    "team_id": "JOR",
+    "team_name": "Jordan",
+    "played": 2,
     "wins": 0,
     "draws": 0,
-    "losses": 1,
-    "goals_for": 0,
-    "goals_against": 3,
+    "losses": 2,
+    "goals_for": 2,
+    "goals_against": 5,
     "goal_difference": -3,
     "points": 0
   },
