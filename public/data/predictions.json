@@ -1,20 +1,53 @@
 [
   {
-    "match_id": "760486",
+    "match_id": "760487",
     "stage": "round_of_32",
     "group_name": null,
-    "home_team_name": "South Africa",
-    "away_team_name": "Canada",
-    "kickoff_utc": "2026-06-28T19:00Z",
-    "local_match_date": "2026-06-29",
-    "market_home_win_probability": 0.160658,
-    "market_draw_probability": 0.262365,
-    "market_away_win_probability": 0.576978,
-    "predicted_result": "away_win",
+    "home_team_name": "Brazil",
+    "away_team_name": "Japan",
+    "kickoff_utc": "2026-06-29T17:00Z",
+    "local_match_date": "2026-06-30",
+    "market_home_win_probability": 0.564069,
+    "market_draw_probability": 0.256032,
+    "market_away_win_probability": 0.179899,
+    "predicted_result": "home_win",
     "confidence_level": "medium",
+    "predicted_home_goals": 2,
+    "predicted_away_goals": 1,
+    "predicted_score": "2-1",
+    "score_confidence_level": "low",
+    "score_prediction_flags": [
+      "scoreline_baseline",
+      "exact_score_uncertain",
+      "no_over_under_market_used",
+      "real_market_odds_used"
+    ],
+    "odds_bookmaker_count": 25,
+    "odds_is_mock": false,
+    "data_quality_flags": [
+      "market_implied_baseline",
+      "prediction_real_market_odds",
+      "ranking_mock_data"
+    ],
+    "analysis": "1.【双方实力】巴西世界排名前五，整体实力与阵容深度远超日本，近期状态稳定且进攻端火力强劲。日本队排名约第20位，技术细腻但对抗能力较弱，淘汰赛经验稍逊。\n\n2.【核心球员】巴西关键球员为内马尔，其盘带与创造力可撕破密集防线；维尼修斯边路突破威胁极大。日本核心为久保建英，组织串联能力突出，但身体对抗劣势明显。\n\n3.【比赛看点】巴西能否通过边路突破打破日本防线，日本则需依赖快速反击与定位球制造威胁。中场控制权将是胜负关键。\n\n4.【预测依据】市场概率巴西胜56.4%反映其实力优势，日本胜率仅18%印证爆冷难度。巴西淘汰赛经验与个人能力更可靠，预计2-1小胜。\n\n5.【结论】巴西综合实力占优，日本难阻晋级之路。\n分析仅供参考",
+    "disclaimer": "Analytical output only. Not betting advice."
+  },
+  {
+    "match_id": "760488",
+    "stage": "round_of_32",
+    "group_name": null,
+    "home_team_name": "Netherlands",
+    "away_team_name": "Morocco",
+    "kickoff_utc": "2026-06-30T01:00Z",
+    "local_match_date": "2026-06-30",
+    "market_home_win_probability": 0.42091,
+    "market_draw_probability": 0.307715,
+    "market_away_win_probability": 0.271376,
+    "predicted_result": "home_win",
+    "confidence_level": "low",
     "predicted_home_goals": 1,
-    "predicted_away_goals": 2,
-    "predicted_score": "1-2",
+    "predicted_away_goals": 0,
+    "predicted_score": "1-0",
     "score_confidence_level": "low",
     "score_prediction_flags": [
       "scoreline_baseline",
@@ -29,7 +62,7 @@
       "prediction_real_market_odds",
       "ranking_mock_data"
     ],
-    "analysis": "1.【双方实力】加拿大世界排名远高于南非，整体阵容厚度更优，近期热身赛表现稳健。南非实力偏弱，淘汰赛经验不足，近期状态起伏较大。\n\n2.【核心球员】加拿大前锋乔纳森·戴维速度快、射术精，是主要得分点；中场尤斯塔奎奥组织能力出色。南非需依赖前锋福斯特的个人突击。\n\n3.【比赛看点】加拿大能否通过高位逼抢早早建立优势，南非的反击效率与定位球防守将是关键。\n\n4.【预测依据】市场概率（加拿大胜57.7%）清晰反映实力差距。加拿大攻防体系更成熟，南非难以抵挡持续压力，预计1-2小胜。\n\n5.【结论】加拿大整体占优，有望晋级。\n\n分析仅供参考",
+    "analysis": "1.【双方实力】荷兰世界排名第8，整体实力占优，但近期进攻效率偏低；摩洛哥排名第22，防守坚韧且反击犀利，淘汰赛表现顽强。  \n2.【核心球员】荷兰依赖德佩的串联与范迪克的防线领袖作用；摩洛哥则需齐耶赫的边路突破及阿姆拉巴特的中场拦截。  \n3.【比赛看点】荷兰能否破解摩洛哥的密集防守，摩洛哥的反击速度与定位球威胁将是关键。  \n4.【预测依据】市场概率倾向荷兰（42.1%），其整体性与大赛经验占优，但摩洛哥防守稳固，预计小比分决胜。  \n5.【结论】荷兰有望凭借稳固防守与关键进球1-0晋级。  \n分析仅供参考",
     "disclaimer": "Analytical output only. Not betting advice."
   }
 ]
